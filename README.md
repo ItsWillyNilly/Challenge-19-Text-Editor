@@ -73,7 +73,7 @@ npm start
 ```
 
 ## Live URL
-<img src="assets/videos/Untitled Video September 16, 2024 3_39 PM.gif">
+<img src="assets/images/Screenshot 2024-09-18 at 6.59.24 PM.png">
 Live Link:<br> https://challenge-19-text-editor-2nmi.onrender.com/
 
 ## GitHub Repo Link
