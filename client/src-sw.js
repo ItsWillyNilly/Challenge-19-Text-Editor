@@ -28,7 +28,7 @@ registerRoute(({ request }) => request.mode === 'navigate', pageCache);
 
 // TODO: Implement asset caching
 registerRoute(
-  ({ request }) => request.destination === 'script' || request.destination === 'style', new CacheFirst(
+  ({ request }) => ["style", "script", "worker"].includes(request.destination), new StaleWhileRevalidate(
     {
       cacheName: 'asset-cache',
       plugins: [
